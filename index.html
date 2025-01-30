@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bingo</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    Loto
+  </header>
+  <div class="container">
+    <main>
+      <div>
+        Remaining<div id="remain"> </div>
+      </div>
+      <div id="display">
+        <h2>Current Number</h2>
+        <span id="currentNumber">-1</span>
+      </div>
+      <div class="buttons">
+        <button id="reset">Reset</button>
+        <button id="next">Next Number</button>
+        <button id="mute">Mute</button>
+      </div>
+    </main>
+    <div>
+      Pick your cards <a href="/cards.html">here</a>
+    </div>
+    <div class="picked-numbers">
+      All picked numbers <br/><span id="extracted"></span>
+    </div>
+  </div>
+</body>
+
+</html>

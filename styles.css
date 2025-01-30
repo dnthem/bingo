@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+header {
+  background-color: rgba(255, 40, 40, 0.81);
+  color: white;
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  outline: 1px solid #000;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em;
+  width: 100%;
+}
+
+#remain {
+  background-color: #f9f9f9;
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+}
+
+#display {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin: 1em;
+  width: auto;
+  text-align: center;
+}
+
+#currentNumber {
+  font-size: 20rem;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#next {
+  font-size: 4rem;
+}
+
+#extracted {
+  font-size: 4rem;
+  max-width: 80%;
+  text-wrap: wrap;
+}
